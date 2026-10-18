@@ -8,3 +8,82 @@ The objective is to transform supply chain and inventory data into meaningful bu
 
 ---
 
+## 🎯 Project Objective
+
+The objective of this project is to analyze supply chain and inventory operations to understand stock availability, product demand, supplier performance, and operational efficiency.
+
+Key objectives include:
+
+- Analyze inventory levels and stock availability.
+- Identify products with low stock or potential overstocking.
+- Understand product demand and sales patterns.
+- Evaluate supplier performance.
+- Analyze order fulfillment and delivery performance.
+- Identify inventory management inefficiencies.
+- Monitor product and category performance.
+- Develop relevant supply chain and inventory KPIs.
+- Build an interactive dashboard for performance monitoring.
+- Generate actionable recommendations for inventory optimization.
+
+---
+
+## 💼 Business Problem
+
+Businesses must maintain sufficient inventory to meet customer demand while avoiding excessive stock that increases storage costs and ties up working capital.
+
+Poor inventory management can lead to stockouts, overstocking, delayed deliveries, inefficient purchasing decisions, and increased operational costs.
+
+Supply chain teams need to understand:
+
+- Which products have insufficient inventory?
+- Which products have excess stock?
+- Which products demonstrate higher demand?
+- Which suppliers perform better?
+- Are customer orders being fulfilled on time?
+- Which product categories contribute most to demand or sales?
+- Where do supply chain delays occur?
+- How efficiently is inventory being managed?
+- Which operational areas require improvement?
+
+This project uses data analytics to investigate these questions and support informed supply chain and inventory management decisions.
+
+---
+
+## 💡 Business Value
+
+The analysis provides a structured approach to:
+
+- Monitor inventory availability.
+- Identify potential stockout and overstock risks.
+- Understand product demand patterns.
+- Evaluate supplier and order performance.
+- Analyze order fulfillment and delivery metrics.
+- Compare product and category performance.
+- Improve inventory planning and replenishment decisions.
+- Identify operational inefficiencies.
+- Support data-driven supply chain decisions.
+
+The goal is to connect inventory, product demand, supplier performance, and order fulfillment with measurable operational outcomes.
+
+---
+
+## ❓ Business Questions
+
+The project focuses on answering the following business questions:
+
+1. What is the total inventory available?
+2. Which products have the lowest stock levels?
+3. Which products may be at risk of stockouts?
+4. Which products have comparatively high inventory levels?
+5. Which products or categories demonstrate higher demand?
+6. Which suppliers provide better operational performance?
+7. What is the average order fulfillment time?
+8. Are orders being delivered within the expected timeframe?
+9. Which product categories contribute most to sales or order volume?
+10. Which products require inventory replenishment?
+11. Where are potential supply chain bottlenecks?
+12. How can inventory management and operational efficiency be improved?
+
+*The questions addressed in the final analysis depend on the fields available in the dataset.*
+
+---
