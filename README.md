@@ -87,3 +87,50 @@ The project focuses on answering the following business questions:
 *The questions addressed in the final analysis depend on the fields available in the dataset.*
 
 ---
+
+# 🔄 Project Workflow
+
+The project follows an end-to-end Data Analyst workflow.
+
+```text
+1. Understand Business Problem
+          ↓
+2. Inspect Supply Chain Dataset
+          ↓
+3. Perform Data Cleaning
+          ↓
+4. Prepare Data using Pandas
+          ↓
+5. Validate Prepared Data
+          ↓
+6. Perform Exploratory Data Analysis
+          ↓
+7. Perform SQL Business Analysis
+          ↓
+8. Define Supply Chain & Inventory KPIs
+          ↓
+9. Analyze Inventory & Operational Performance
+          ↓
+10. Build Interactive Dashboard
+          ↓
+11. Generate Business Insights
+          ↓
+12. Recommend Actions
+```
+
+---
+
+## 1️⃣ Understand Business Problem
+
+The first step was to translate supply chain and inventory management requirements into analytical questions.
+
+Key activities:
+
+- Define the project objectives.
+- Understand inventory management requirements.
+- Identify important supply chain metrics.
+- Determine the product, supplier, and order dimensions required for analysis.
+- Identify potential stock availability and replenishment issues.
+- Establish the business questions to be answered.
+
+---
