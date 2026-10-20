@@ -134,3 +134,21 @@ Key activities:
 - Establish the business questions to be answered.
 
 ---
+
+## 2️⃣ Inspect Supply Chain Dataset
+
+The dataset was reviewed to understand its structure and identify the information required for analysis.
+
+Key activities:
+
+- Load and inspect the dataset.
+- Review the number of records and columns.
+- Examine column names and data types.
+- Inspect product and inventory-related fields.
+- Review supplier information.
+- Examine order and shipment details.
+- Review product category information.
+- Inspect sales, demand, or cost fields where available.
+- Identify fields required for KPI calculations.
+
+---
