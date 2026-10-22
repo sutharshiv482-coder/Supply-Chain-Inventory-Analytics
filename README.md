@@ -152,3 +152,24 @@ Key activities:
 - Identify fields required for KPI calculations.
 
 ---
+
+## 3️⃣ Perform Data Cleaning
+
+Python and Pandas were used to inspect and clean the dataset before analysis.
+
+Key activities included:
+
+- Identify missing and incomplete values.
+- Check for duplicate records.
+- Review data types and formatting.
+- Standardize inconsistent categorical values.
+- Validate product and supplier information.
+- Review inventory quantities.
+- Check order dates and delivery dates.
+- Validate sales, demand, and cost fields where available.
+- Investigate invalid or inconsistent values.
+- Prepare the dataset for further analysis.
+
+Clean and consistent data helps improve the reliability of supply chain metrics and business findings.
+
+---
