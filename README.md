@@ -173,3 +173,22 @@ Key activities included:
 Clean and consistent data helps improve the reliability of supply chain metrics and business findings.
 
 ---
+
+## 4️⃣ Prepare Data Using Pandas
+
+Pandas was used to transform and organize the dataset for analysis.
+
+Key activities included:
+
+- Data transformation and standardization.
+- Preparing product-level analytical fields.
+- Organizing inventory-related information.
+- Preparing supplier-level data.
+- Structuring order and delivery information.
+- Preparing product category information.
+- Creating analytical fields required for KPI calculations.
+- Preparing data for exploratory analysis and visualization.
+
+Derived metrics should be calculated only when the required source fields are available and their definitions are clear.
+
+---
