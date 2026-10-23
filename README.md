@@ -192,3 +192,24 @@ Key activities included:
 Derived metrics should be calculated only when the required source fields are available and their definitions are clear.
 
 ---
+
+## 5️⃣ Validate Prepared Data
+
+After data preparation, validation checks were performed to assess data quality and analytical consistency.
+
+Validation activities included:
+
+- Recheck missing values.
+- Confirm duplicate handling.
+- Verify data types.
+- Review categorical consistency.
+- Validate product and supplier fields.
+- Check inventory quantities.
+- Validate order and delivery dates.
+- Review sales and cost fields where available.
+- Verify calculated metrics.
+- Perform final data-quality checks.
+
+Validation helps ensure that inventory and supply chain metrics are based on reliable data.
+
+---
