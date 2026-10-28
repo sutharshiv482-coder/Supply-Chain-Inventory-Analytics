@@ -213,3 +213,15 @@ Validation activities included:
 Validation helps ensure that inventory and supply chain metrics are based on reliable data.
 
 ---
+
+## 6️⃣ Perform Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis was used to understand inventory levels, product demand, supplier performance, and operational patterns.
+
+### 📦 Inventory Analysis
+
+- Examine inventory levels across products.
+- Identify products with comparatively low stock.
+- Investigate potential overstocking.
+- Compare inventory across product categories.
+- Identify products that may require further stock monitoring.
