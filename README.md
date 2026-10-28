@@ -225,3 +225,23 @@ Exploratory Data Analysis was used to understand inventory levels, product deman
 - Investigate potential overstocking.
 - Compare inventory across product categories.
 - Identify products that may require further stock monitoring.
+
+### 📈 Product Demand Analysis
+
+Where demand, sales, or order quantity data is available:
+
+- Analyze product demand patterns.
+- Compare demand across products.
+- Identify products with higher order volumes.
+- Compare demand across product categories.
+- Examine changes in demand over time when dates are available.
+
+### 🏭 Supplier Performance Analysis
+
+Where supplier and procurement information is available:
+
+- Compare supplier-related metrics.
+- Examine supplier delivery performance.
+- Analyze supplier lead times.
+- Identify suppliers associated with operational delays.
+- Compare supplier performance using consistent measures.
