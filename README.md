@@ -245,3 +245,33 @@ Where supplier and procurement information is available:
 - Analyze supplier lead times.
 - Identify suppliers associated with operational delays.
 - Compare supplier performance using consistent measures.
+
+### 🚚 Order Fulfillment Analysis
+
+Where order and delivery dates are available:
+
+- Analyze order processing time.
+- Calculate delivery or fulfillment time.
+- Compare delivery performance.
+- Identify delayed orders.
+- Examine patterns associated with longer fulfillment times.
+
+### 🗂️ Product Category Analysis
+
+- Compare inventory across categories.
+- Analyze order or sales volume.
+- Identify categories with higher stock requirements.
+- Examine differences in product performance.
+
+### 💰 Cost and Operational Analysis
+
+Where reliable cost information is available:
+
+- Examine inventory-related costs.
+- Compare purchasing costs.
+- Analyze recorded operational expenses.
+- Investigate potential cost inefficiencies.
+
+EDA helps identify patterns that can be investigated further through SQL and dashboard analysis.
+
+---
