@@ -174,3 +174,104 @@ Key activities:
 Data corrections were applied where justified. Records with unresolved issues were retained for review rather than automatically modified.
 
 ---
+
+## 4️⃣ Prepare Data Using Pandas
+
+Pandas was used to standardize data, create analytical fields, and prepare the dataset for further analysis.
+
+Key activities:
+- Standardize column values and data formats.
+- Convert validated numeric fields to appropriate data types.
+- Prepare parsed date columns for time-based analysis.
+- Organize product, supplier, warehouse, and purchase order information.
+- Prepare inventory fields, including on-hand stock, reorder points, and safety stock.
+- Create data-quality flags for suspicious or inconsistent records.
+- Prepare fields for order fulfillment and supplier lead-time analysis.
+- Structure the dataset for exploratory analysis, SQL analysis, and dashboard development.
+- Preserve original values where corrections or interpretations require further review.
+
+Derived metrics were prepared only when the required source fields and calculation rules were sufficiently clear.
+
+---
+
+## 5️⃣ Validate the Prepared Dataset
+
+Validation checks were performed after cleaning and transformation to assess data consistency and identify unresolved issues.
+
+Key activities:
+- Recheck missing and invalid values.
+- Verify exact duplicate removal and repeated order ID handling.
+- Confirm data types and numeric conversions.
+- Review standardized categorical values.
+- Validate product, supplier, and warehouse information.
+- Investigate negative and zero inventory-related values.
+- Review discrepancies between ordered and received quantities.
+- Check order, promised, and received date sequences.
+- Reassess cancelled orders with recorded receipt dates.
+- Verify calculated fields and data-quality flags.
+- Perform final consistency checks before analysis.
+
+Unresolved anomalies were flagged for further investigation instead of being treated as confirmed errors. This helps reduce the risk of misleading supply chain metrics.
+
+---
+
+## 6️⃣ Perform Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis was used to investigate inventory levels, procurement activity, supplier performance, and order fulfillment patterns.
+
+### 📦 Inventory Analysis
+
+- Analyze on-hand stock across products and categories.
+- Identify products below their reorder points.
+- Compare inventory levels against safety stock.
+- Investigate potential stock shortages and excess inventory.
+- Identify products requiring closer inventory monitoring.
+- Examine inventory distribution across warehouses.
+
+### 📈 Product Demand Analysis
+
+- Analyze average daily demand across products.
+- Compare order quantities across products and categories.
+- Identify products with comparatively high demand.
+- Examine demand patterns across available time periods.
+- Compare demand with current inventory levels.
+- Identify products that may require replenishment planning.
+
+### 🏭 Supplier Performance Analysis
+
+- Compare procurement activity across suppliers.
+- Analyze supplier-related order volumes.
+- Calculate supplier lead times using validated order and receipt dates.
+- Examine delivery delays against promised dates.
+- Identify suppliers associated with recurring delays.
+- Compare supplier performance using consistent and clearly defined measures.
+
+### 🚚 Order Fulfillment Analysis
+
+- Analyze the relationship between order, promised, and received dates.
+- Calculate fulfillment time using validated date fields.
+- Identify orders received later than their promised dates.
+- Investigate orders with missing or inconsistent receipt information.
+- Compare fulfillment patterns across suppliers and warehouses.
+- Examine cancelled orders with conflicting delivery records.
+
+### 🗂️ Product Category Analysis
+
+- Compare inventory levels across product categories.
+- Analyze order quantities by category.
+- Identify categories with higher inventory requirements.
+- Compare demand and stock availability across categories.
+- Investigate category-level patterns that may affect replenishment decisions.
+
+### 💰 Cost and Procurement Analysis
+
+- Analyze unit purchasing costs across products and suppliers.
+- Examine freight costs across available procurement records.
+- Calculate order-level costs where the required fields are reliable.
+- Review GST rates and their impact on cost calculations where applicable.
+- Compare purchasing and freight costs across suppliers or categories.
+- Investigate unusual cost values and potential procurement inefficiencies.
+
+EDA provides the foundation for SQL-based business analysis, KPI development, dashboard reporting, and data-driven supply chain recommendations.
+
+---
