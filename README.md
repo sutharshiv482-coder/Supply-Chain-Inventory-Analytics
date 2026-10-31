@@ -152,3 +152,25 @@ Key activities:
 - Identify fields required for supply chain KPIs.
 
 ---
+
+## 3️⃣ Perform Data Cleaning
+
+Python and Pandas were used to identify, investigate, and address data-quality issues before analysis.
+
+Key activities:
+- Identify missing values and inconsistent placeholders.
+- Detect and remove exact duplicate records.
+- Investigate repeated purchase order IDs and near-duplicate records.
+- Standardize text formatting and categorical values.
+- Normalize supplier, product, warehouse, and location information.
+- Parse numeric fields containing currency symbols, units, and inconsistent separators.
+- Validate GST rates and supplier GSTIN formats.
+- Investigate negative, zero, and unusually large quantities or costs.
+- Review inconsistencies between ordered and received quantities.
+- Parse order, promised, and received dates while preserving the original values.
+- Flag invalid dates and investigate ambiguous date formats.
+- Identify conflicting order statuses and delivery information.
+
+Data corrections were applied where justified. Records with unresolved issues were retained for review rather than automatically modified.
+
+---
