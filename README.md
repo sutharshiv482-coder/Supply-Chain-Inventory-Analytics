@@ -135,143 +135,20 @@ Key activities:
 
 ---
 
-## 2️⃣ Inspect Supply Chain Dataset
+## 2️⃣ Inspect the Supply Chain Dataset
 
-The dataset was reviewed to understand its structure and identify the information required for analysis.
+The dataset was inspected to understand its structure, assess data quality, and identify fields relevant to supply chain and inventory analysis.
 
 Key activities:
-
-- Load and inspect the dataset.
-- Review the number of records and columns.
+- Load the dataset and inspect its structure.
+- Review the number of rows and columns.
 - Examine column names and data types.
-- Inspect product and inventory-related fields.
-- Review supplier information.
-- Examine order and shipment details.
-- Review product category information.
-- Inspect sales, demand, or cost fields where available.
-- Identify fields required for KPI calculations.
-
----
-
-## 3️⃣ Perform Data Cleaning
-
-Python and Pandas were used to inspect and clean the dataset before analysis.
-
-Key activities included:
-
-- Identify missing and incomplete values.
-- Check for duplicate records.
-- Review data types and formatting.
-- Standardize inconsistent categorical values.
-- Validate product and supplier information.
-- Review inventory quantities.
-- Check order dates and delivery dates.
-- Validate sales, demand, and cost fields where available.
-- Investigate invalid or inconsistent values.
-- Prepare the dataset for further analysis.
-
-Clean and consistent data helps improve the reliability of supply chain metrics and business findings.
-
----
-
-## 4️⃣ Prepare Data Using Pandas
-
-Pandas was used to transform and organize the dataset for analysis.
-
-Key activities included:
-
-- Data transformation and standardization.
-- Preparing product-level analytical fields.
-- Organizing inventory-related information.
-- Preparing supplier-level data.
-- Structuring order and delivery information.
-- Preparing product category information.
-- Creating analytical fields required for KPI calculations.
-- Preparing data for exploratory analysis and visualization.
-
-Derived metrics should be calculated only when the required source fields are available and their definitions are clear.
-
----
-
-## 5️⃣ Validate Prepared Data
-
-After data preparation, validation checks were performed to assess data quality and analytical consistency.
-
-Validation activities included:
-
-- Recheck missing values.
-- Confirm duplicate handling.
-- Verify data types.
-- Review categorical consistency.
-- Validate product and supplier fields.
-- Check inventory quantities.
-- Validate order and delivery dates.
-- Review sales and cost fields where available.
-- Verify calculated metrics.
-- Perform final data-quality checks.
-
-Validation helps ensure that inventory and supply chain metrics are based on reliable data.
-
----
-
-## 6️⃣ Perform Exploratory Data Analysis (EDA)
-
-Exploratory Data Analysis was used to understand inventory levels, product demand, supplier performance, and operational patterns.
-
-### 📦 Inventory Analysis
-
-- Examine inventory levels across products.
-- Identify products with comparatively low stock.
-- Investigate potential overstocking.
-- Compare inventory across product categories.
-- Identify products that may require further stock monitoring.
-
-### 📈 Product Demand Analysis
-
-Where demand, sales, or order quantity data is available:
-
-- Analyze product demand patterns.
-- Compare demand across products.
-- Identify products with higher order volumes.
-- Compare demand across product categories.
-- Examine changes in demand over time when dates are available.
-
-### 🏭 Supplier Performance Analysis
-
-Where supplier and procurement information is available:
-
-- Compare supplier-related metrics.
-- Examine supplier delivery performance.
-- Analyze supplier lead times.
-- Identify suppliers associated with operational delays.
-- Compare supplier performance using consistent measures.
-
-### 🚚 Order Fulfillment Analysis
-
-Where order and delivery dates are available:
-
-- Analyze order processing time.
-- Calculate delivery or fulfillment time.
-- Compare delivery performance.
-- Identify delayed orders.
-- Examine patterns associated with longer fulfillment times.
-
-### 🗂️ Product Category Analysis
-
-- Compare inventory across categories.
-- Analyze order or sales volume.
-- Identify categories with higher stock requirements.
-- Examine differences in product performance.
-
-### 💰 Cost and Operational Analysis
-
-Where reliable cost information is available:
-
-- Examine inventory-related costs.
-- Compare purchasing costs.
-- Analyze recorded operational expenses.
-- Investigate potential cost inefficiencies.
-
-EDA helps identify patterns that can be investigated further through SQL and dashboard analysis.
+- Inspect product, SKU, and category information.
+- Review supplier and warehouse details.
+- Examine purchase orders and delivery dates.
+- Inspect order quantities and received quantities.
+- Review inventory levels, reorder points, and safety stock.
+- Examine unit costs, freight costs, and GST rates.
+- Identify fields required for supply chain KPIs.
 
 ---
