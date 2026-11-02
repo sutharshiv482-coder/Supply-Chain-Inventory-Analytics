@@ -275,3 +275,22 @@ Exploratory Data Analysis was used to investigate inventory levels, procurement 
 EDA provides the foundation for SQL-based business analysis, KPI development, dashboard reporting, and data-driven supply chain recommendations.
 
 ---
+
+## 7️⃣ Perform SQL Business Analysis
+
+SQL was used to perform structured, business-focused analysis on the prepared supply chain and inventory data.
+
+### Business Questions
+
+- What is the total recorded inventory quantity?
+- How many distinct products are included in the analysis?
+- Which products have the lowest stock levels?
+- Which products have the highest inventory quantities?
+- Which categories have higher inventory levels?
+- Which products demonstrate higher demand?
+- Which suppliers have better delivery performance?
+- What is the average fulfillment time?
+- How many orders were delivered late?
+- Which products may require replenishment?
+
+*Questions involving suppliers, orders, delivery performance, demand, or costs require the corresponding fields in the dataset.*
