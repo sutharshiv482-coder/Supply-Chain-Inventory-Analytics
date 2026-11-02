@@ -294,3 +294,21 @@ SQL was used to perform structured, business-focused analysis on the prepared su
 - Which products may require replenishment?
 
 *Questions involving suppliers, orders, delivery performance, demand, or costs require the corresponding fields in the dataset.*
+
+### SQL Analysis Areas
+
+- Inventory quantity analysis.
+- Product-level analysis.
+- Product category analysis.
+- Stock availability analysis.
+- Demand and order analysis.
+- Supplier performance analysis.
+- Order fulfillment analysis.
+- Delivery delay analysis.
+- Cost analysis, where applicable.
+- KPI calculations.
+- Performance comparisons across products and categories.
+
+SQL transforms prepared data into structured metrics that support operational analysis and dashboard reporting.
+
+---
