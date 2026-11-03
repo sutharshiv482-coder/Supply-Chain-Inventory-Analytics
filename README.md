@@ -312,3 +312,20 @@ SQL was used to perform structured, business-focused analysis on the prepared su
 SQL transforms prepared data into structured metrics that support operational analysis and dashboard reporting.
 
 ---
+
+## 8️⃣ Define Key Performance Indicators (KPIs)
+
+KPIs provide a consistent way to monitor inventory status, product demand, supplier performance, and operational efficiency.
+
+| KPI | Purpose |
+|---|---|
+| Total Products | Measures the number of distinct products analyzed |
+| Total Inventory Quantity | Measures the recorded quantity of inventory |
+| Low-Stock Products | Counts products meeting the defined low-stock criteria |
+| Overstocked Products | Counts products meeting the defined overstock criteria |
+| Total Orders | Measures the number of orders analyzed |
+| Average Order Fulfillment Time | Measures average time required to fulfill orders |
+| On-Time Delivery Rate (%) | Measures the percentage of eligible orders delivered on time |
+| Supplier Lead Time | Measures the time between ordering from a supplier and receiving the goods |
+| Product Demand | Measures demand using an appropriate order quantity or sales metric |
+| Inventory Value | Measures inventory value when reliable quantity and unit cost data are available |
