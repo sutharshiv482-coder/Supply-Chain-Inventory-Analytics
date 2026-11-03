@@ -329,3 +329,16 @@ KPIs provide a consistent way to monitor inventory status, product demand, suppl
 | Supplier Lead Time | Measures the time between ordering from a supplier and receiving the goods |
 | Product Demand | Measures demand using an appropriate order quantity or sales metric |
 | Inventory Value | Measures inventory value when reliable quantity and unit cost data are available |
+
+### KPI Calculation Considerations
+
+- Define low-stock and overstock thresholds before classifying products.
+- Avoid summing inventory quantities across incompatible units of measurement.
+- Distinguish order processing time from supplier lead time.
+- Define on-time delivery using an agreed delivery date and actual delivery date.
+- Calculate inventory value only when quantity and unit cost fields are available.
+- Use the correct level of analysis to avoid double-counting orders or products.
+
+The final KPI list should match the available dataset and the metrics actually implemented.
+
+---
