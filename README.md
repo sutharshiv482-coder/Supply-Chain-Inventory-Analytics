@@ -346,3 +346,7 @@ The final KPI list should match the available dataset and the metrics actually i
 ## 9️⃣ Analyze Inventory & Operational Performance
 
 This stage combines product, inventory, supplier, demand, and order metrics to understand operational performance.
+
+### 📦 Inventory Performance
+
+Compare stock levels and identify products requiring closer inventory monitoring.
