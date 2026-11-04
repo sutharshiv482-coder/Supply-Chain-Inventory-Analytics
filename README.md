@@ -342,3 +342,7 @@ KPIs provide a consistent way to monitor inventory status, product demand, suppl
 The final KPI list should match the available dataset and the metrics actually implemented.
 
 ---
+
+## 9️⃣ Analyze Inventory & Operational Performance
+
+This stage combines product, inventory, supplier, demand, and order metrics to understand operational performance.
