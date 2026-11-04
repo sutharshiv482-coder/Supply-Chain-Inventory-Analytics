@@ -350,3 +350,7 @@ This stage combines product, inventory, supplier, demand, and order metrics to u
 ### 📦 Inventory Performance
 
 Compare stock levels and identify products requiring closer inventory monitoring.
+
+### 📈 Product Demand
+
+Analyze available demand or order metrics to understand differences in product requirements.
